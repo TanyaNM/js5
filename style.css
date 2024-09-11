@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://c.wallhere.com/photos/5a/01/Los_Santos_at_night_GTA5-1978015.jpg!d);
+    background-size: cover;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main {
+    display: none;
+}
+
+
+.question {
+    font-size: 50px;
+    color: red;
+    border: 1px solid red;
+    padding: 15px;
+    background-color: black;
+
+}
+
+
+.ans-row {
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.answer {
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 65px; height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    margin: .5em;
+    cursor: pointer;
+    color: black;
+    background-color: red;
+}
+
+
+.answer:hover {
+    background-color: orange;
+    box-shadow: 10px 10px orange;
+    
+}
+
+
+.container_h3{
+    margin-bottom: 10px;
+}
+
+
+.start-btn {
+    font-size: 30px;
+    padding: .5em;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    color: red;
+}
+
+
+.start-btn:hover {
+    background-color: #FFFFFF;
+}
+h3{ color: white;
+   
+}
